@@ -3,8 +3,8 @@
 
 # Live Demo
 https://swapi-starwars.vercel.app/
-Username :- admin
-Password :- admin 
+- Username :- admin
+- Password :- admin 
 
 # BEFORE YOU START
 Add following to your .env file 
