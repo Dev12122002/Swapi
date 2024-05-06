@@ -1,0 +1,69 @@
+.floating-arrow {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: #8b0909;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 2%;
+    z-index: 90;
+}
+
+.filter-icon {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: #8b0909;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+    padding: 2%;
+    z-index: 100;
+    transition: ease-in-out 0.3s;
+}
+
+.filter-icon:hover {
+    opacity: 1;
+}
+
+.filter-icon.up {
+    bottom: 90px;
+    transition: ease-in-out 0.3s;
+}
+
+.floating-arrow.visible:hover {
+    opacity: 1;
+
+}
+
+.floating-arrow.visible {
+    opacity: 0.8;
+}
+
+.loadbtn {
+    display: block !important;
+    background-color: #8b0909 !important;
+    color: #fff !important;
+    border: 0 !important;
+    border-radius: 10px !important;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.3) !important;
+    padding: 10px 15px !important;
+    font-size: 16px !important;
+}
+
+.loadbtn:hover {
+    background-color: rgb(82, 13, 13) !important;
+}
