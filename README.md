@@ -1,6 +1,10 @@
 # Swapi StarWars
  This is the Stars Wars character details react app made using swapi and picsum photo api
 
+# Live Demo
+https://swapi-starwars.vercel.app/
+Username :- admin
+Password :- admin 
 
 # BEFORE YOU START
 Add following to your .env file 
