@@ -1,5 +1,5 @@
 # Swapi StarWars
- This is  the Stars Wars app
+ This is the Stars Wars character details react app made using swapi and picsum photo api
 
 
 # BEFORE YOU START
